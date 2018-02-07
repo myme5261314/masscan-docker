@@ -10,8 +10,11 @@ RUN set -ex; \
     buildDeps=' \
     ca-certificates \
     clang \
+    clang-dev \
     gcc \
     git \
+    libc-dev \
+    linux-headers \
     make \
     '; \
     \
